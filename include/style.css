@@ -16,6 +16,7 @@ a {
 
 .clear{
     clear: both;
+    width: 100%;
 }
 
 h1{
@@ -333,6 +334,7 @@ p{
 
 .tigsImage .tigsContent {
     padding: 10px;
+    overflow-wrap: break-word;
 }
 
 .tigsImageNoNews{
@@ -443,8 +445,12 @@ p{
         width: 70%;
     }
 
+    .rightColumnRow1{
+        display: block;
+    }
+    
     .innerColumn1, .innerColumn2{
-        float: none;
+        /* float: none; */
         width: 100%;
     }
 
